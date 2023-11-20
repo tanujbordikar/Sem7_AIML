@@ -4,7 +4,7 @@ from flask_cors import CORS
 
 # Load the machine learning model
 model = joblib.load(
-    "C:/Users/Tanuj Bordikar/OneDrive/Documents/Projects/student_health/model_updated.joblib"
+    "C:/Users/Tanuj Bordikar/OneDrive/Documents/Projects/student_health/model/model_updated.joblib"
 )
 
 app = Flask(__name__)
